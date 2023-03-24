@@ -1,5 +1,4 @@
-# que valor devuelve? devuelve str o none
-def domino_generalizado(n: int):
+def domino_generalizado(n: int) -> None:
     """Imprime por pantalla todas las fichas de un dominó genérico dado un
     numero arbitrario máximo para las fichas"""
 

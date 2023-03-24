@@ -2,7 +2,7 @@ from os import system
 # debo importar la funcion calculoFactorial de 1.5.py
 
 
-def ingresar_valores(cantidad_factoriales: int) -> int:
+def ingresar_valores(cantidad_factoriales: int) -> None:
     for i in range(1, cantidad_factoriales + 1):
         texto_input = "Ingrese factorial numero " + str(i) + ": "
         # factorial_de = input(f"Hey var = {var} Bye : ") also works

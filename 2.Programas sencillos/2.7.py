@@ -1,14 +1,14 @@
 triangulacion = int(input("Ingrese un numero: "))
 
 
-def numeros_triangulares(numero: int) -> int:
+def numeros_triangulares(numero: int) -> None:
     numero_triangulado = 0
     for i in range(1, numero + 1):
         numero_triangulado += i
         print(i, " - ", numero_triangulado)
 
 
-def numeros_triangulares_formula(n: int) -> int:
+def numeros_triangulares_formula(n: int) -> None:
     for i in range(1, n + 1):
         numero_triangulado = (i * (i + 1)) // 2
         print(i, " - ", numero_triangulado)
