@@ -8,7 +8,6 @@ def conver_table() -> None:
     print("Grados F° | Grados celsius")
     for i in range(0, 121, 10):
         print(i, " | ", fahrenheit_to_celsius(i))
-        # por que no puedo usar i += 10
 
 
 conver_table()
